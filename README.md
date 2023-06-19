@@ -1,4 +1,4 @@
-# ChronicDiseasePrediction
+# Chronic Disease Prediction
 
 For the purpose of this project, a random forest classifier was utilized to make predictions regarding the presence of chronic kidney disease. The dataset underwent certain preprocessing steps, including the conversion of categorical variables like "rbc" (Red Blood Cell count) into binary values (1 or 0) to represent normal or abnormal, respectively. Moreover, inaccurate values denoted as "\t?" were replaced with NaN, which were then filled with the mean value of the corresponding columns. No duplicate rows were detected in the dataset.
 
